@@ -147,3 +147,12 @@ section p {
     text-align: center;
   }
 }
+
+.status {
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid currentColor;
+}
+.status.neutral { opacity: 0.8; }
+.status.success { color: #0b6b3a; font-weight: 700; }
+.status.error { color: #8b1e3f; font-weight: 700; }
